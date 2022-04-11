@@ -4,12 +4,13 @@ export default function Contact() {
     
     return (
 <>
-        <a href="/"  style={{margin: '14px 12px 10px'}}><button>Home</button></a>
+<br/>
+&nbsp;&nbsp;<a href="/"><button>Home</button></a>
         <br />
         <Card sx={{ maxWidth: 1345 }} style={{margin: '14px'}}>
              <Typography>
             <p style={{margin: '14px'}}>
-                email: 
+                email: <a  href="mailto:https://mail.google.com/">frumpuberty@gmail.com</a>
 
         </p>
         </Typography></Card>
