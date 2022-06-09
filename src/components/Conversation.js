@@ -18,7 +18,9 @@ export default function Conversation() {
         </h1>
         <h4 style={{ textAlign: "center" }}>
           Available on Amazon.com:&nbsp;
-          <a href={href}>{href}</a>
+          <a href={href} target="_blank" rel="noreferrer">
+            {href}
+          </a>
         </h4>
         <Card sx={{ maxWidth: 1345 }} style={{ margin: "14px" }}>
           <Typography>
